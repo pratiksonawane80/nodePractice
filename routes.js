@@ -1,5 +1,20 @@
 const fs = require("fs")
 
+
+// const arr = ["Apple", "Ant", "Ball", "Baloon", "Cat", "Car", "Dog", "Dark", "Eat", "Ear"]
+// const sol = arr.reduce((acc, cur) => {
+//   debugger
+//   if(!acc[cur[0]]) {
+//   	acc[cur[0]] = [cur]
+//   }
+//   else {
+//   	acc[cur[0]].push(cur)
+//   }
+//   return acc
+// }, {})
+
+// console.log(sol)
+
 const requestHandler = (req, res) => {
     const url = req.url
     const method = req.method
